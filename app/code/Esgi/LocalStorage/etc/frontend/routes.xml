@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- app/code/Esgi/LocalStorage/etc/frontend/routes.xml -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="localstorage" frontName="localstorage">
+            <module name="Esgi_LocalStorage" />
+        </route>
+    </router>
+</config>
