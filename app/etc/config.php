@@ -4,7 +4,7 @@ return array (
   array (
     'Magento_Store' => 1,
     'Magento_AdminNotification' => 1,
-    'Esgi_LocalStorage' => 1,
+    'Esgi_Store' => 1,
     'Magento_Directory' => 1,
     'Magento_AdvancedPricingImportExport' => 1,
     'Magento_Config' => 1,
@@ -120,6 +120,8 @@ return array (
     'Magento_CatalogWidget' => 1,
     'Dotdigitalgroup_Email' => 1,
     'Magento_WishlistAnalytics' => 1,
+    'Owebia_AdvancedSettingCore' => 1,
+    'Owebia_AdvancedShippingSetting' => 1,
     'Shopial_Facebook' => 1,
     'Temando_Shipping' => 1,
   ),

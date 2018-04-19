@@ -1,0 +1,11 @@
+<?php
+/** @var $block Esgi\Store\Block\Locator */
+$stores = $block->getStoresForFrontend();
+?>
+<h1>Test</h1>
+<ul id="stores-list">
+    <?php foreach ($stores as $store) : ?>
+        <li><?php echo $stores->getName(); ?></li>
+    <?php endforeach; ?>
+</ul>
+

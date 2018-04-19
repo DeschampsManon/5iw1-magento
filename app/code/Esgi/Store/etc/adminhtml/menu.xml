@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- app/code/Esgi/Store/etc/adminhtml/menu.xml -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Esgi_Store::locator" 
+        	 title="Stores Locator" 
+        	 module="Esgi_Store" 
+        	 sortOrder="100" 
+        	 resource="Esgi_Store::locator" 
+        	 action="store/locator"/>
+    </menu>
+</config>
